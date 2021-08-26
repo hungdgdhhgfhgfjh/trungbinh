@@ -1,0 +1,13 @@
+let inputtoan;
+let inputvatly;
+let inputhoa;
+ inputtoan = prompt("Enter the toan");
+ inputvatly = prompt("Enter the vatly");
+ inputhoa = prompt("Enter the hoa");
+let toan = parseInt(inputtoan);
+let vatly = parseInt(inputvatly);
+let hoa = parseInt(inputhoa);
+let tong = toan + vatly + hoa;
+let trungbinh = tong / 3 ;
+document.write(tong);
+alert(trungbinh); 
